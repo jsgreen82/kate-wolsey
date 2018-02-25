@@ -9,13 +9,16 @@ const Navpills = () =>
       <Link to="/about">About</Link>
     </li>
     <li className={window.location.pathname === "/digital" ? "active" : ""}>
-      <Link to="/blog">Digital</Link>
+      <Link to="/digital">Digital</Link>
     </li>
     <li className={window.location.pathname === "/printmaking" ? "active" : ""}>
-      <Link to="/contact">Printmaking</Link>
+      <Link to="/printmaking">Printmaking</Link>
     </li>
       <li className={window.location.pathname === "/collage" ? "active" : ""}>
-      <Link to="/contact">Collage</Link>
+      <Link to="/collage">Collage</Link>
+    </li>
+    <li className={window.location.pathname === "/films" ? "active" : ""}>
+      <Link to="/films">Films</Link>
     </li>
   </ul>;
 export default Navpills;
